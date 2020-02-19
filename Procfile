@@ -1,1 +1,1 @@
-web: java -jar target/blogtemplate2-0.0.1-SNAPSHOT.jar
+web: java -jar -Dserver.port=$PORT target/blogtemplate2-0.0.1-SNAPSHOT.jar 
